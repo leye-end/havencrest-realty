@@ -45,6 +45,10 @@
       <a href="index.html#contact">CONTACT</a>
     </nav>
 
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <i class="bi bi-list"></i>
+    </button>
+
   </header>
 
 
@@ -631,7 +635,7 @@
         </div>
 
 
-        <form class="contact-form-inner">
+        <form class="contact-form-inner" novalidate>
 
           <label
             for="email"
@@ -657,6 +661,8 @@
           </button>
 
         </form>
+        
+        <p class="form-message" aria-live="polite"></p>
 
       </div>
 
@@ -702,5 +708,6 @@
 
   </footer>
 
+  <script src="./assets/js/main.js"></script>
 </body>
 </html>
